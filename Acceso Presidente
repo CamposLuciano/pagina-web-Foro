@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bodyPre">
+    <link rel="stylesheet" href="presidente.css">
+    <h2 class="h2"> ¡¡¡Bienvenido señor Presidente!!! <br> --- Porfavor ingrese su Usuario y Contraseña --- </h2>
+    <div class="divPre01">
+        <div>
+            <p>Usuario</p>
+            <input class="p01" type="text">
+        </div>
+        <div class="D01">
+            <p>Contraseña</p>
+            <input class="p02" type="password">
+        </div>
+        <button class="botonPre">
+            <a class="a01" href="">Ingresar</a>
+        </button>
+    </div>
+</body>
+</html>
+
+
+---------------------------- CSS ------------------------------------
+
+
+.h2{
+    font-style: italic;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    
+}
+.divPre01{
+    margin: auto;
+    margin-top: 7%;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-style: italic;
+    background-color: bisque;
+    box-shadow: white 0px 0px 50px;
+    background-color: #760909;
+    color: white;
+}
+.p02,.p01{
+    padding: 2%;
+    background-color: white;
+}
+.D01{
+    margin-top: 10%;
+}
+.botonPre{
+    margin-top: 7%;
+    padding: 1%;
+    background-color:white;
+}   
+.bodyPre{
+    background-color: #152128;
+}
+.a01{
+    text-decoration: none;
+    color: black;
+}
